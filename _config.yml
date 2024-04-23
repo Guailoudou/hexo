@@ -152,6 +152,6 @@ post_style:
     indent: 0
 email: Guailoudou@outlook.com
 deploy:
-  type: git
-  repository: git@github.com:Guailoudou/pages.git
-  branch: master
+    type: git
+    repository: git@github.com:Guailoudou/pages.git
+    branch: master
