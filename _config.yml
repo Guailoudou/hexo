@@ -24,7 +24,7 @@ pretty_urls:
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
+tag_dir: 标签
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
@@ -106,7 +106,9 @@ theme: hexo-theme-aircloud-master
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+    type: git
+    repository: git@github.com:Guailoudou/pages.git
+    branch: main
 
 comment:
   type: giscus
@@ -151,3 +153,4 @@ avatar_style:
 post_style:
     indent: 0
 email: Guailoudou@outlook.com
+
