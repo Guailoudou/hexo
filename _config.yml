@@ -132,7 +132,7 @@ github_username:    Guailoudou
 friends: [
     {
         title: "web",
-        href: "/web"
+        href: "https://www.gldhn.top"
     },{
         title: "原音殿堂",
         href: "https://gh.gldn.eu.org"
@@ -141,7 +141,7 @@ friends: [
         href: "https://web.gldhn.top"
     },{
         title: "ALIST",
-        href: "/alist"
+        href: "https://alist.gldhn.top"
     },{
         title: "File",
         href: "https://file.gldhn.top"
