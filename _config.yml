@@ -24,7 +24,7 @@ pretty_urls:
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
+tag_dir: 标签
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
@@ -151,3 +151,7 @@ avatar_style:
 post_style:
     indent: 0
 email: Guailoudou@outlook.com
+deploy:
+  type: git
+  repository: git@github.com:Guailoudou/pages.git
+  branch: master
