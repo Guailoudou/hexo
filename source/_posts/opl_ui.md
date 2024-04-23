@@ -19,6 +19,6 @@ tags:
 这里预计放一个实时同步的列表
 
 ### 开源
-[![Github](https://img.shields.io/badge/Github-OPL_WpfApp-Green?logo=github)](https://img.shields.io/badge/Github-Openp2p%20Launcher-Green?logo=github)
-[![Github](https://img.shields.io/badge/Github-openp2p-Green?logo=github)](https://github.com/openp2p/openp2p)
+- [![Github](https://img.shields.io/badge/Github-OPL_WpfApp-Green?logo=github)](https://img.shields.io/badge/Github-Openp2p%20Launcher-Green?logo=github)
+- [![Github](https://img.shields.io/badge/Github-openp2p-Green?logo=github)](https://github.com/openp2p/openp2p)
 
