@@ -6,7 +6,7 @@ tags:
 - 工具
 ---
 ### 下载
-最新下载地址：[下载](https://alist.gldhn.top/d/yidonpan/file/opl/OPL%E8%81%94%E6%9C%BA%E5%B7%A5%E5%85%B7%20wpf%20%E6%9E%B6%E6%9E%84%E6%B5%8B%E8%AF%95%200.1.3.zip)
+最新下载地址：[下载](https://alist.gldhn.top/d/yidonpan/file/opl/OPL%E8%81%94%E6%9C%BA%E5%B7%A5%E5%85%B7%20wpf%20%E6%9E%B6%E6%9E%84%E6%B5%8B%E8%AF%95%200.1.4.zip)
 
 ### 使用方法
 1. 下载后解压，双击OPL_WpfApp.exe
