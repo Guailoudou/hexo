@@ -6,7 +6,7 @@ tags:
 - 工具
 ---
 ### 下载
-最新下载地址：[下载：OPL联机工具 wpf 架构测试 0.1.4.zip](https://alist.gldhn.top/d/yidonpan/file/opl/OPL%E8%81%94%E6%9C%BA%E5%B7%A5%E5%85%B7%20wpf%20%E6%9E%B6%E6%9E%84%E6%B5%8B%E8%AF%95%200.1.4.zip)
+最新下载地址：[下载：OPL联机工具UI.zip](https://file.gldhn.top/file/OPL联机工具UI.zip)
 
 ### 使用方法
 1. 下载后解压，双击OPL_WpfApp.exe
