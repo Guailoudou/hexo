@@ -17,9 +17,10 @@ tags:
 
 mc使用看[这里](/2024/04/22/opl_mc/)，其他的也可以参考
 
+**注意，是连接的添加隧道，不是被连接的！！**
 ### 预设功能
 
-这里预计放一个实时同步的列表
+这里预计放一个实时同步的列表（新建文件夹了）
 
 ### 开源
 - [![Github](https://img.shields.io/badge/Github-OPL_WpfApp-Green?logo=github)](https://github.com/Guailoudou/OPL-WpfApp)
