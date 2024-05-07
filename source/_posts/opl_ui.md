@@ -6,9 +6,15 @@ tags:
 - 工具
 ---
 ### 下载
-最新下载地址：[下载：OPL联机工具UI.zip](https://file.gldhn.top/file/OPL联机工具UI.zip)
+
+最新下载地址：[OPL联机工具UI.zip](https://file.gldhn.top/file/OPL联机工具UI.zip)
+
+请单独解压到一个独立文件夹，同时最好为此文件夹添加杀毒白名单，防止误报导致程序运行出错 
+
+自动静默更新，后续无需手动更新
 
 ### 使用方法
+
 1. 下载后解压，双击OPL_WpfApp.exe
 2. 被连接的仅需要在无隧道情况下直接启动即可，然后向需要连接你的人提供你的UUID和端口号即可
 3. 连接的需要新建隧道，新建隧道时需要输入被连接者的UUID和端口号（远程端口）本地端口可根据情况随意（默认相同），协议根据情况选择（MC为TCP），然后点击新建
@@ -29,6 +35,7 @@ mc使用看[这里](/2024/04/22/opl_mc/)，其他的也可以参考
 <iframe src="https://file.gldhn.top/web/preset/?type=uplog" width="100%" height="235px" frameborder="0" scrolling="yes"></iframe>
 
 ### 开源
+
 - [![Github](https://img.shields.io/badge/Github-OPL_WpfApp-Green?logo=github)](https://github.com/Guailoudou/OPL-WpfApp)
 - [![Github](https://img.shields.io/badge/Github-openp2p-Green?logo=github)](https://github.com/openp2p-cn/openp2p)
 

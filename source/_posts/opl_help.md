@@ -12,6 +12,8 @@ tags:
 
 这是一款p2p的mc联机工具，世界直接出现在局域网，无需输入服务器地址，本程序基于[openp2p](https://github.com/openp2p-cn/openp2p)，本质为自动生成openp2p的配置文件，使用公共账户简化其使用，添加针对mc的功能，本程序开源，使用c++编写
 
+UI版详见[【推荐】UI版-WPF](/2024/04/19/opl_ui/)
+
 直连的连通性依赖于nat类型，具体条件见下面的[nat连通性](#user-content-nat连通性),使用用户**多**的时候不满足条件的也可以连上（中转） 仅直连条件下可以达到**理论最低**延迟
 
 查毒报告(内有行为分析，觉得不安全可以看看，文件已同步至0.5.6.3于2024-2-2上传)：
@@ -32,7 +34,7 @@ MD5值可以通过cmd在文件目录运行`certutil -hashfile 文件名 MD5`查�
 
 |下载地址|MD5|
 |---|---|
-|[UI版-WPF](/2024/04/19/opl_ui/)|基于.net4.7.2全新UI操作页面 功能更加丰富，提供预设功能|
+|[【推荐】UI版-WPF](/2024/04/19/opl_ui/)|基于.net4.7.2全新UI操作页面 功能更加丰富，提供预设功能,连接状态更加直观，自动静默更新|
 |[Download-0.5.6.3win-x64](https://gld.lanzoul.com/iMhnx1mzgo1a)|e3696937a3d4b1baff8bf8c65cb58dd8|
 |[Download-0.5.6.3win-x86](https://gld.lanzoul.com/i78cA1mzgo9i)|171a63253a52d0a953c25a4f0e60716e|
  or
