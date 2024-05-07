@@ -20,7 +20,7 @@ mc使用看[这里](/2024/04/22/opl_mc/)，其他的也可以参考
 **注意，是连接的添加隧道，不是被连接的！！**
 ### 预设功能
 
-<iframe src="https://file.gldhn.top/web/preset/" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://file.gldhn.top/web/preset/" width="100%" height="100%" frameborder="0" scrolling="yes"></iframe>
 
 ### 开源
 - [![Github](https://img.shields.io/badge/Github-OPL_WpfApp-Green?logo=github)](https://github.com/Guailoudou/OPL-WpfApp)
