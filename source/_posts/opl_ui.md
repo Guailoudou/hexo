@@ -34,6 +34,10 @@ mc使用看[这里](/2024/04/22/opl_mc/)，其他的也可以参考
 
 <iframe src="https://file.gldhn.top/web/preset/?type=uplog" width="100%" height="235px" frameborder="0" scrolling="yes"></iframe>
 
+### 充电/发电鸣谢
+
+<iframe src="https://file.gldhn.top/web/thank/" width="100%" height="225px" frameborder="0" scrolling="yes"></iframe>
+
 ### 开源
 
 - [![Github](https://img.shields.io/badge/Github-OPL_WpfApp-Green?logo=github)](https://github.com/Guailoudou/OPL-WpfApp)
