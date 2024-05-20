@@ -40,7 +40,7 @@ MC-<a href="https://minecraft.net"><img src="https://www.minecraft.net/content/d
 
 <iframe src="https://file.gldhn.top/web/thank/" width="100%" height="225px" frameborder="0" scrolling="yes"></iframe>
 
-<a href="https://afdian.net/a/guailoudou"><img width="200" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt=""></a>
+<a href="https://afdian.net/a/guailoudou"><img src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt=""  style="width: 150px;"></a>
 
 
 ### 开源
