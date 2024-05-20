@@ -5,7 +5,7 @@ tags:
 - 教程
 ---
 
-<a href="https://minecraft.net"><img width="250" src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/logos/Global-Header_MCCB-Logo_300x51.svg" title="MC"></a>
+<a href="https://minecraft.net"><img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/logos/Global-Header_MCCB-Logo_300x51.svg" title="MC" style="width: 250px;"></a>
 
 本教程前提是你和你的朋友已经安装了相同版本，且mod相同的minecraft.
 
