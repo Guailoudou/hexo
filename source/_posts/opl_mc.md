@@ -4,6 +4,9 @@ date: 2024-04-22 19:05:39
 tags:
 - 教程
 ---
+
+<a href="https://minecraft.net"><img width="250" src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/logos/Global-Header_MCCB-Logo_300x51.svg" title="MC"></a>
+
 本教程前提是你和你的朋友已经安装了相同版本，且mod相同的minecraft.
 
 同时建议存在无正版玩家时，都使用外置登录
@@ -55,4 +58,4 @@ tags:
 
 隧道可自行选择是否启用，也可以点击编辑参数
 
-opl联机工具下载：[UI测试版](/2024/04/19/opl_ui/)
+opl联机工具下载：[UI版](/2024/04/19/opl_ui/)

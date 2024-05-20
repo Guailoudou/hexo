@@ -11,6 +11,8 @@ tags:
 
 请单独解压到一个独立文件夹，同时最好为此文件夹添加杀毒白名单，防止误报导致程序运行出错 
 
+支持 win10-win11，win10以下版本需要另外安装[.NET Framework 4.7.2](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net472)
+
 自动静默更新，后续无需手动更新
 
 ### 使用方法
@@ -21,7 +23,7 @@ tags:
 4. 根据情况启用隧道，运行过程中会锁定软件，无法操作，连接成功的隧道状态灯会变绿
 5. 预设功能为一些固定端口的程序，如果你还知道其他固定端口的，可以提交给作者添加（该列表为联网更新）
 
-mc使用看[这里](/2024/04/22/opl_mc/)，其他的也可以参考
+MC-<a href="https://minecraft.net"><img width="100" src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/logos/Global-Header_MCCB-Logo_300x51.svg" title="MC"></a>使用看[这里](/2024/04/22/opl_mc/)，其他的也可以参考
 
 **注意，是连接的添加隧道，不是被连接的！！**
 ### 预设功能(自动同步软件中的列表)
@@ -37,6 +39,9 @@ mc使用看[这里](/2024/04/22/opl_mc/)，其他的也可以参考
 ### 充电/发电鸣谢
 
 <iframe src="https://file.gldhn.top/web/thank/" width="100%" height="225px" frameborder="0" scrolling="yes"></iframe>
+
+<a href="https://afdian.net/a/guailoudou"><img width="200" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt=""></a>
+
 
 ### 开源
 
