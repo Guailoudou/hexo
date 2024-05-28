@@ -7,9 +7,11 @@ tags:
 ---
 ### 下载
 
-最新下载地址：[OPL_Setup.msi](https://file.gldhn.top/file/OPL_Setup.msi)
+最新下载地址：
+- 安装包（小白下这个）：[OPL_Setup.msi](https://file.gldhn.top/file/OPL_Setup.msi)
+- 免安装版：[OPL联机工具UI.zip](https://file.gldhn.top/file/OPL联机工具UI.zip)
 
-老版本更新把原来地址的bin/config文件移动到安装目录的系统地方就可以继续用之前的uid和隧道
+免安装版如果要换安装版，把原来地址的bin/config文件移动到安装目录的系统地方就可以继续用之前的uid和隧道
 
 支持 win10-win11，win10以下版本需要另外安装[.NET Framework 4.7.2](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net472)
 
@@ -17,7 +19,7 @@ tags:
 
 ### 使用方法
 
-1. 下载后解压，双击OPL_WpfApp.exe
+1. 下载后安装或解压，双击 OPL_WpfApp.exe 或 点击桌面快捷方式启动
 2. 被连接的仅需要在无隧道启用情况下直接启动即可（虽然启用也行，但不建议），然后向需要连接你的人提供你的UUID和端口号即可
 3. 连接的需要新建隧道，新建隧道时需要输入被连接者的UUID和端口号（远程端口）本地端口可根据情况随意（默认相同），协议根据情况选择（MC为TCP），然后点击新建
 4. 根据情况启用隧道，运行过程中会锁定软件，无法操作，连接成功的隧道状态灯会变绿
