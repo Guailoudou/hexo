@@ -7,9 +7,9 @@ tags:
 ---
 ### 下载
 
-最新下载地址：[OPL联机工具UI.zip](https://file.gldhn.top/file/OPL联机工具UI.zip)
+最新下载地址：[OPL_Setup.msi](https://file.gldhn.top/file/OPL_Setup.msi)
 
-请单独解压到一个独立文件夹，同时最好为此文件夹添加杀毒白名单，防止误报导致程序运行出错 
+老版本更新把原来地址的bin/config文件移动到安装目录的系统地方就可以继续用之前的uid和隧道
 
 支持 win10-win11，win10以下版本需要另外安装[.NET Framework 4.7.2](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net472)
 
