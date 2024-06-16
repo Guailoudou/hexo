@@ -5,7 +5,7 @@ tags:
 - 教程
 - 工具
 ---
-### 下载
+## 下载
 
 最新下载地址：
 - 安装包（小白下这个）：[OPL_Setup.msi](https://file.gldhn.top/file/OPL_Setup.msi)
@@ -17,7 +17,7 @@ tags:
 
 自动静默更新，后续无需手动更新
 
-### 使用方法
+## 使用方法
 
 1. 下载后安装或解压，双击 OPL_WpfApp.exe 或 点击桌面快捷方式启动
 2. 被连接的仅需要在无隧道启用情况下直接启动即可（虽然启用也行，但不建议），然后向需要连接你的人提供你的UID和端口号即可
@@ -28,13 +28,31 @@ tags:
 MC-<a href="https://minecraft.net"><img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/logos/Global-Header_MCCB-Logo_300x51.svg" title="MC" style="width: 100px;"></a>使用看[这里](/2024/04/22/opl_mc/)，其他的也可以参考
 
 **注意，是连接的添加隧道，不是被连接的！！**
-### 预设功能(自动同步软件中的列表)
+
+## 常见问题
+
+### 点击启动后程序闪退：
+
+Windows安全中心->病毒和威胁防护->“病毒和威胁防护”设置->管理设置->排除项->添加或删除排除项->添加排除项->文件夹 选择安装目录中的`bin`文件夹
+默认安装目录：`C:\Program Files(x86)\Guailoudou\OPL\`
+
+### 网站打不开，下载慢，无法获取预设列表：
+
+设置hosts：
+```
+172.64.32.5 file.gldhn.top
+172.64.32.5 blog.gldhn.top
+```
+(请自行网查如何修改设置hosts)
+
+
+## 预设功能(自动同步软件中的列表)
 
 <iframe src="https://file.gldhn.top/web/preset/?type=preset" width="100%" height="225px" frameborder="0" scrolling="yes"></iframe>
 
 如果你知道更多固定端口的游戏，请提交给我，谢谢，理论能用frp（樱花frp那种）连的游戏都可以用
 
-### 日志（自动同步软件中关于内日志）
+## 日志（自动同步软件中关于内日志）
 
 <iframe src="https://file.gldhn.top/web/preset/?type=uplog" width="100%" height="235px" frameborder="0" scrolling="yes"></iframe>
 
@@ -45,7 +63,7 @@ MC-<a href="https://minecraft.net"><img src="https://www.minecraft.net/content/d
 <a href="https://afdian.net/a/guailoudou"><img src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt=""  style="width: 150px;"></a>
 
 
-### 开源
+## 开源
 
 - [![Github](https://img.shields.io/badge/Github-OPL_WpfApp-Green?logo=github)](https://github.com/Guailoudou/OPL-WpfApp)
 - [![Github](https://img.shields.io/badge/Github-openp2p-Green?logo=github)](https://github.com/openp2p-cn/openp2p)
