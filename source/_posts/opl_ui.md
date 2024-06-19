@@ -8,7 +8,7 @@ tags:
 ## 下载
 
 最新下载地址：
-- 安装包（小白下这个）：[OPL_Setup.msi](https://file.gldhn.top/file/OPL_Setup.msi)
+- 安装包（小白下这个）：[本站下载](https://file.gldhn.top/file/OPL_Setup.msi)   [蓝奏云](https://gld.lanzoul.com/i30R7228ts5a)
 - 免安装版：[OPL联机工具UI.zip](https://file.gldhn.top/file/OPL联机工具UI.zip)
 
 免安装版如果要换安装版，把原来地址的bin/config文件移动到安装目录的系统地方就可以继续用之前的uid和隧道
