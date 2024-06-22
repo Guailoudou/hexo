@@ -5,19 +5,27 @@ tags:
 - 教程
 - 工具
 ---
-## 下载
+# 下载
 
-最新下载地址：
-- 安装包（小白下这个）：[本站下载](https://file.gldhn.top/file/OPL_Setup.msi)   [蓝奏云](https://gld.lanzoul.com/i30R7228ts5a)
+下载地址：
+### 下载源1：
+
+- [夸克](https://pan.quark.cn/s/8537690fd74b)
+
+### 下载源2：
+
+- 安装包（小白下这个）：[本站下载](https://file.gldhn.top/file/OPL_Setup.msi)   
 - 免安装版：[OPL联机工具UI.zip](https://file.gldhn.top/file/OPL联机工具UI.zip)
 
+### 下载源3（仅安装包）：
+[蓝奏云](https://gld.lanzoul.com/i30R7228ts5a)  
 免安装版如果要换安装版，把原来地址的bin/config文件移动到安装目录的系统地方就可以继续用之前的uid和隧道
 
 支持 win10-win11，win10以下版本需要另外安装[.NET Framework 4.7.2](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net472)
 
 自动静默更新，后续无需手动更新
 
-## 使用方法
+# 使用方法
 
 1. 下载后安装或解压，双击 OPL_WpfApp.exe 或 点击桌面快捷方式启动
 2. 被连接的仅需要在无隧道启用情况下直接启动即可（虽然启用也行，但不建议），然后向需要连接你的人提供你的UID和端口号即可
@@ -29,7 +37,7 @@ MC-<a href="https://minecraft.net"><img src="https://www.minecraft.net/content/d
 
 **注意，是连接的添加隧道，不是被连接的！！**
 
-## 常见问题
+# 常见问题
 
 ### 点击启动后程序闪退：
 
@@ -46,13 +54,13 @@ Windows安全中心->病毒和威胁防护->“病毒和威胁防护”设置->�
 (请自行网查如何修改设置hosts)
 
 
-## 预设功能(自动同步软件中的列表)
+# 预设功能(自动同步软件中的列表)
 
 <iframe src="https://file.gldhn.top/web/preset/?type=preset" width="100%" height="225px" frameborder="0" scrolling="yes"></iframe>
 
 如果你知道更多固定端口的游戏，请提交给我，谢谢，理论能用frp（樱花frp那种）连的游戏都可以用
 
-## 日志（自动同步软件中关于内日志）
+# 日志（自动同步软件中关于内日志）
 
 <iframe src="https://file.gldhn.top/web/preset/?type=uplog" width="100%" height="235px" frameborder="0" scrolling="yes"></iframe>
 
@@ -63,7 +71,7 @@ Windows安全中心->病毒和威胁防护->“病毒和威胁防护”设置->�
 <a href="https://afdian.net/a/guailoudou"><img src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt=""  style="width: 150px;"></a>
 
 
-## 开源
+# 开源
 
 - [![Github](https://img.shields.io/badge/Github-OPL_WpfApp-Green?logo=github)](https://github.com/Guailoudou/OPL-WpfApp)
 - [![Github](https://img.shields.io/badge/Github-openp2p-Green?logo=github)](https://github.com/openp2p-cn/openp2p)
