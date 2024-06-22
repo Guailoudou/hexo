@@ -7,23 +7,24 @@ tags:
 ---
 # 下载
 
-下载地址：
+免安装版如果要换安装版，把原来地址的bin/config文件移动到安装目录的系统地方就可以继续用之前的uid和隧道
+
+支持 win10-win11，win10以下版本需要另外安装[.NET Framework 4.7.2](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net472)
+
+自动静默更新，后续无需手动更新
+
 ### 下载源1：
 
 - [夸克](https://pan.quark.cn/s/8537690fd74b)
 
 ### 下载源2：
 
-- 安装包（小白下这个）：[本站下载](https://file.gldhn.top/file/OPL_Setup.msi)   
+- 安装包（小白下这个）：[OPL_Setup.msi](https://file.gldhn.top/file/OPL_Setup.msi)   
 - 免安装版：[OPL联机工具UI.zip](https://file.gldhn.top/file/OPL联机工具UI.zip)
 
 ### 下载源3（仅安装包）：
-[蓝奏云](https://gld.lanzoul.com/i30R7228ts5a)  
-免安装版如果要换安装版，把原来地址的bin/config文件移动到安装目录的系统地方就可以继续用之前的uid和隧道
 
-支持 win10-win11，win10以下版本需要另外安装[.NET Framework 4.7.2](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net472)
-
-自动静默更新，后续无需手动更新
+- [蓝奏云](https://gld.lanzoul.com/i30R7228ts5a)  
 
 # 使用方法
 
