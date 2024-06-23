@@ -13,16 +13,16 @@ tags:
 
 自动静默更新，后续无需手动更新
 
-### 下载源1：
+### 下载源1（推荐）：
 
 - [夸克](https://pan.quark.cn/s/8537690fd74b)
 
-### 下载源2：
+### 下载源2（可能较慢）：
 
 - 安装包（小白下这个）：[OPL_Setup.msi](https://file.gldhn.top/file/OPL_Setup.msi)   
 - 免安装版：[OPL联机工具UI.zip](https://file.gldhn.top/file/OPL联机工具UI.zip)
 
-### 下载源3（仅安装包）：
+### 下载源3（仅msi安装包）：
 
 - [蓝奏云](https://gld.lanzoul.com/i30R7228ts5a)  
 
