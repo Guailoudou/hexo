@@ -15,7 +15,11 @@ tags:
 
 ### 下载源1（推荐）：
 
-- [夸克](https://pan.quark.cn/s/8537690fd74b)
+- [夸克](https://pan.quark.cn/s/8537690fd74b) 
+  
+夸克每转存一次，我可以获得0.2软妹币，所以推荐使用这个
+
+下面的下载方式都可以直接免登录直接下载，其中蓝奏云下载较快
 
 ### 下载源2（可能较慢）：
 
@@ -40,20 +44,17 @@ MC-<a href="https://minecraft.net"><img src="https://www.minecraft.net/content/d
 
 # 常见问题
 
-### 点击启动后程序闪退：
+### 点击启动后程序闪退/显示报毒：
 
 Windows安全中心->病毒和威胁防护->“病毒和威胁防护”设置->管理设置->排除项->添加或删除排除项->添加排除项->文件夹 选择安装目录中的`bin`文件夹
 默认安装目录：`C:\Program Files(x86)\Guailoudou\OPL\`
 
 ### 网站打不开，下载慢，无法获取预设列表：
 
-设置hosts：
-```
-172.64.32.5 file.gldhn.top
-172.64.32.5 blog.gldhn.top
-```
-(请自行网查如何修改设置hosts)
+下载此文件，解压后运行：
 
+- [夸克网盘](https://pan.quark.cn/s/2c923c5f82d5)
+- [Sethosts.zip](Sethosts.zip) -本站下载
 
 # 预设功能(自动同步软件中的列表)
 
