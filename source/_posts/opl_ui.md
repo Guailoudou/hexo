@@ -49,9 +49,9 @@ MC-<a href="https://minecraft.net"><img src="https://www.minecraft.net/content/d
 Windows安全中心->病毒和威胁防护->“病毒和威胁防护”设置->管理设置->排除项->添加或删除排除项->添加排除项->文件夹 选择安装目录中的`bin`文件夹
 默认安装目录：`C:\Program Files(x86)\Guailoudou\OPL\`
 
-### 网站打不开，下载慢，无法获取预设列表：
+### 无法获取预设/更新/下载慢：
 
-下载此文件，解压后运行：
+下载此文件，解压后运行（自动检索最佳cdn的ip并自动设置hosts）：
 
 - [夸克网盘](https://pan.quark.cn/s/2c923c5f82d5)
 - [Sethosts.zip](Sethosts.zip) -本站下载
