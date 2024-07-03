@@ -28,7 +28,7 @@ tags:
 
 ### 下载源3（仅msi安装包）：
 
-- [蓝奏云](https://gld.lanzoul.com/i30R7228ts5a)  
+- [蓝奏云](https://gld.lanzoul.com/iMakt23e7iqb)  
 
 # 使用方法
 
