@@ -1,11 +1,11 @@
 ---
-title: 机械重工服务器
+title: 随心之旅服务器
 date: 2024-06-13 22:09:38
 tags:
 ---
 ## 服务器（必看）
 
-整合包下载： [点击下载](https://alist.gldhn.top/d/yidonpan/file/%E6%9C%BA%E6%A2%B0%E9%87%8D%E5%B7%A5.zip)
+整合包下载： [点击下载](https://alist.gldhn.top/d/yidonpan/file/%E9%9A%8F%E5%BF%83%E4%B9%8B%E6%97%85.zip)
 
 下载后将压缩包拖入启动器即可完成安装
 
@@ -63,6 +63,6 @@ tags:
 
 `/nick <名称...>`-更改聊天中的昵称 
 
-## mod列表
+## mod列表 //待更新
 
-![列表](PixPin_2024-06-13_22-18-44.png)
+...
