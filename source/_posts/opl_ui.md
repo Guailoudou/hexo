@@ -11,6 +11,8 @@ tags:
 
 支持 win10-win11，win10以下版本需要另外安装[.NET Framework 4.7.2](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net472)
 
+遇到问题请先查看常见问题中是否有相关问题：[常见问题](/2024/07/12/oplwin_help/)
+
 自动静默更新，后续无需手动更新
 
 ### 下载源1（推荐）：
