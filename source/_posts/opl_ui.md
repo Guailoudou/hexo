@@ -72,7 +72,7 @@ Windows安全中心->病毒和威胁防护->“病毒和威胁防护”设置->�
 
 <iframe src="https://file.gldhn.top/web/thank/" width="100%" height="225px" frameborder="0" scrolling="yes"></iframe>
 
-<a href="https://afdian.net/a/guailoudou"><img src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt=""  style="width: 150px;"></a>
+<a href="https://afdian.com/a/guailoudou"><img src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt=""  style="width: 150px;"></a>
 
 
 # 开源

@@ -4,6 +4,7 @@ date: 2024-07-12 17:06:46
 tags: 
 - 教程
 - 联机
+- 文档
 ---
 本文档为[联机工具](https://blog.gldhn.top/2024/04/19/opl_ui/)常见问题自查文档
 
@@ -27,6 +28,14 @@ ps：个人推荐外置登录，还能加载皮肤披风，以下为设置外置
 如：应该是`127.0.0.1:25565` 而不是 `127.0.0.1：25565`
 
 ps：为什么不直接复制呢
+
+### Invalid characters in username
+
+进入报错 `Internal Exception:javalang.IllegalStateException:Invalid characters in username`
+
+原因：用户名不合规
+
+解决方法：更改用户名，要求仅可出现英文大小写，数字，英文下划线，3-16位，**不可使用中文用户名**
 
 ### MC联机皮肤不显示
 
