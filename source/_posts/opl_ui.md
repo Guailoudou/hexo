@@ -47,6 +47,7 @@ MC-<a href="https://minecraft.net"><img src="https://www.minecraft.net/content/d
 # 常见问题
 
 ### 点击启动后程序闪退/显示报毒：
+原因：内网穿透类软件常被黑客用于攻击企业内网，因此常常被报毒
 
 Windows安全中心->病毒和威胁防护->“病毒和威胁防护”设置->管理设置->排除项->添加或删除排除项->添加排除项->文件夹 选择安装目录中的`bin`文件夹
 默认安装目录：`C:\Program Files(x86)\Guailoudou\OPL\`
