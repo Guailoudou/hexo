@@ -25,12 +25,12 @@ tags:
 
 ### 下载源2（可能较慢）：
 
-- 安装包（小白下这个）：[OPL_Setup.msi](https://file.gldhn.top/file/OPL_Setup.msi)   
+- 安装包（小白下这个）：[Release.zip](https://file.gldhn.top/file/Release.zip)   
 - 免安装版：[OPL联机工具UI.zip](https://file.gldhn.top/file/OPL联机工具UI.zip)
 
 ### 下载源3（仅msi安装包）：
 
-- [蓝奏云](https://gld.lanzoul.com/iMakt23e7iqb)  
+- [蓝奏云](https://gld.lanzoul.com/iPBJD26pmrng)  
 
 # 使用方法
 
