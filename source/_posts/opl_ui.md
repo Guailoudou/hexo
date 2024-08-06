@@ -30,7 +30,7 @@ tags:
 
 ### 下载源3（仅msi安装包）：
 
-- [蓝奏云](https://gld.lanzoul.com/iPBJD26pmrng)  
+- [蓝奏云](https://gld.lanzoul.com/iyi1z26r9lef)  
 
 # 使用方法
 
