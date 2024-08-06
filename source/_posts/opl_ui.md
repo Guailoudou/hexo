@@ -21,16 +21,12 @@ tags:
   
 夸克每转存一次，我可以获得0.2软妹币，所以推荐使用这个
 
-下面的下载方式都可以直接免登录直接下载，其中蓝奏云下载较快
+下面的下载源可以直接免登录直接下载
 
-### 下载源2（可能较慢）：
+### 下载源2：
 
-- 安装包（小白下这个）：[Release.zip](https://file.gldhn.top/file/Release.zip)   
-- 免安装版：[OPL联机工具UI.zip](https://file.gldhn.top/file/OPL联机工具UI.zip)
-
-### 下载源3（仅msi安装包）：
-
-- [蓝奏云](https://gld.lanzoul.com/iyi1z26r9lef)  
+- 安装包（小白下这个）：[Release.zip](https://gitee.com/guailoudou/urlfile/raw/main/file/Release.zip)   
+- 免安装版：[OPL联机工具UI.zip](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL联机工具UI.zip)
 
 # 使用方法
 
