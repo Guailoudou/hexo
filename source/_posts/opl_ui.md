@@ -15,7 +15,7 @@ tags:
 
 自动静默更新，后续无需手动更新
 
-[![Github](https://img.shields.io/badge/Github-OPL_WpfApp-Green?logo=github)](https://github.com/Guailoudou/OPL-WpfApp)
+- [![Github](https://img.shields.io/badge/Github-OPL_WpfApp-Green?logo=github)](https://github.com/Guailoudou/OPL-WpfApp)
 
 ### 下载源1（推荐）：
 
