@@ -15,19 +15,22 @@ tags:
 
 自动静默更新，后续无需手动更新
 
+[![Github](https://img.shields.io/badge/Github-OPL_WpfApp-Green?logo=github)](https://github.com/Guailoudou/OPL-WpfApp)
+
 ### 下载源1（推荐）：
 
 - [夸克](https://pan.quark.cn/s/8537690fd74b) 
   
 夸克每转存一次，我可以获得0.2软妹币，所以推荐使用这个
 
-下面的下载源可以直接免登录直接下载
-
-### 下载源2：
-
+### 下载源2(Gitee)：
+需要登录gitee
 - 安装包（小白下这个）：[Release.zip](https://gitee.com/guailoudou/urlfile/raw/main/file/Release.zip)   
 - 免安装版：[OPL联机工具UI.zip](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL联机工具UI.zip)
 
+### 下载源3(蓝奏云)：
+仅安装包
+- [Release.zip](https://gld.lanzoul.com/iBjUL26s9ydi)
 # 使用方法
 
 1. 下载后安装或解压，双击 OPL_WpfApp.exe 或 点击桌面快捷方式启动
