@@ -15,6 +15,11 @@ tags:
 
 自动静默更新，后续无需手动更新
 
+安装包会直接安装到固定路径，创建快捷方式
+
+免安装版解压就行
+
+单文件版会在打开后自动下载需要的文件
 - [![Github](https://img.shields.io/badge/Github-OPL_WpfApp-Green?logo=github)](https://github.com/Guailoudou/OPL-WpfApp)
 
 ### 下载源1（推荐）：
@@ -27,10 +32,8 @@ tags:
 需要登录gitee
 - 安装包（小白下这个）：[Release.zip](https://gitee.com/guailoudou/urlfile/raw/main/file/Release.zip)   
 - 免安装版：[OPL联机工具UI.zip](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL联机工具UI.zip)
+- 单文件版[OPL_WpfApp.exe](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL_WpfApp.exe)
 
-### 下载源3(蓝奏云)：
-仅安装包
-- [Release.zip](https://gld.lanzoul.com/iBjUL26s9ydi)
 # 使用方法
 
 1. 下载后安装或解压，双击 OPL_WpfApp.exe 或 点击桌面快捷方式启动
