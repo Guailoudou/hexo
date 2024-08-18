@@ -15,7 +15,7 @@ tags:
 
 自动静默更新，后续无需手动更新
 
-安装包会直接安装到固定路径，创建快捷方式
+安装包会直接安装到固定路径，创建快捷方式 (安装包存在更新异常问题，暂时不再提供)
 
 免安装版解压就行
 
@@ -29,8 +29,7 @@ tags:
 夸克每转存一次，我可以获得0.2软妹币，所以推荐使用这个
 
 ### 下载源2(Gitee)：
-需要登录gitee
-- 安装包（小白下这个）：[Release.zip](https://gitee.com/guailoudou/urlfile/raw/main/file/Release.zip)   
+需要登录gitee 
 - 免安装版：[OPL联机工具UI.zip](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL联机工具UI.zip)
 - 单文件版[OPL_WpfApp.exe](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL_WpfApp.exe)
 
