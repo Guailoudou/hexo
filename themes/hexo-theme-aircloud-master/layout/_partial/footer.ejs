@@ -50,6 +50,36 @@
         </li>
         <% } %>
 
+        <% if (config.afdian_username) { %>
+            <li>
+                <a target="_blank"  href="https://afdian.com/a/<%= config.afdian_username %>">
+                                <span class="fa-stack fa-lg">
+                                    <i class="iconfont icon-afdian"></i>
+                                </span>
+                </a>
+            </li>
+        <% } %>
+
+        <% if (config.bilibili_uid) { %>
+            <li>
+                <a target="_blank"  href="https://space.bilibili.com/<%= config.bilibili_uid %>">
+                                <span class="fa-stack fa-lg">
+                                    <i class="iconfont icon-bilibili"></i>
+                                </span>
+                </a>
+            </li>
+        <% } %>
+
+        <% if (config.qq_link) { %>
+            <li>
+                <a target="_blank"  href="https://space.bilibili.com/<%= config.qq_link %>">
+                                <span class="fa-stack fa-lg">
+                                    <i class="iconfont icon-QQ-circle-fill"></i>
+                                </span>
+                </a>
+            </li>
+        <% } %>
+
         <% if (config.linkedin_username) { %>
         <li>
             <a target="_blank"  href="https://www.linkedin.com/in/<%= config.linkedin_username %>">
