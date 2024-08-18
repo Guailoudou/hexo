@@ -35,6 +35,7 @@ jobs:
           npm install hexo-cli -g
           npm install
           npm install hexo-deployer-git --save
+          npm install hexo-hide-posts --save
 
       - name: Deploy
         run: |
