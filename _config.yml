@@ -146,16 +146,12 @@ friends: [
     {
         title: "web",
         href: "https://www.gldhn.top"
-    },{
-        title: "原音殿堂",
-        href: "https://gh.gldn.eu.org"
-    },{
-        title: "铁盒web",
-        href: "https://web.gldhn.top"
-    },{
+    },
+    {
         title: "ALIST",
         href: "https://alist.gldhn.top"
-    },{
+    },
+    {
         title: "File",
         href: "https://file.gldhn.top"
     }
