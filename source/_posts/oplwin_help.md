@@ -9,6 +9,8 @@ tags:
 # 联机工具常见问题
 本文档为[联机工具](https://blog.gldhn.top/2024/04/19/opl_ui/)常见问题自查文档
 
+mc联机遇到报错可以自查，可以通过`ctrl+f`搜索报错的尾部几个单词以快速找到解决方法
+
 目录
 - [联机工具问题](#联机工具问题)
 - [MC相关问题](#MC相关问题)
@@ -23,7 +25,7 @@ tags:
 
 ### 提示对方不在线
 
-确保房主软件右上角版本号旁边的状态灯为绿色，同时检查uid是否正确.
+确保房主软件左下角版本号旁边的状态灯为绿色，同时检查uid是否正确.
 
 最好等房主版本号后状态灯变绿后其他用户再启动.
 
@@ -118,4 +120,23 @@ ps：推荐直接外置登录，在皮肤站设置皮肤就行了
 
 翻译后无法解决请尝试多次进入，查看报错是否相同，相同请检查mod兼容性问题，网查报错原因
 
+### 聊天消息验证失败
+一般出现在1.19.1以上版本
 
+解决方法：安装禁用聊天举报mod [相关链接](https://www.mcmod.cn/class/6756.html)
+
+### Index *** out of bounds for length ***
+原因：程序访问超出数组长度的索引（一般属于编程错误）
+
+存在2种可能：
+1. 用户名长度过长，正常用户名长度应该不超过16位，并且不应该出现中文
+2. 某个mod存在漏洞，这个报错属于编程错误，请查看游戏日志，检查玩家进入时的报错，移除相关mod，有能力的话请反馈给mod开发者
+
+### 数据包过大
+可能的报错：
+- 读取过大的 NBT 标签时被踢出，并提示“Tried to read NBT tag that was too big; tried to allocate: Xbytes where max allowed: 2097152”；
+- 压缩后的数据包过大被踢出，并提示“Badly compressed packet - size of X is larger than protocol maximum of 2097152”；
+- 发包过大被踢出，并提示“Attempted to send packet over maximum protocol size: 8388608 / Packet too big (is X, should be less than 8388608)”；
+- Payload 过长被踢出，并提示“Payload may not be larger than X bytes”。
+
+解决方法：安装mod [Packet Fixer](https://www.mcmod.cn/class/12625.html)
