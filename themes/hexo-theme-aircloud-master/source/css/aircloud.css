@@ -768,7 +768,7 @@ body {
   margin-bottom: 20px;
   line-height: 120%;
   word-break: break-all;
-  font-size: 22px;
+  font-size: 30px;
 }
 .post-content h2 {
   color: #2f3339;
@@ -776,7 +776,7 @@ body {
   margin-bottom: 20px;
   line-height: 120%;
   word-break: break-all;
-  font-size: 21px;
+  font-size: 25px;
 }
 .post-content h3 {
   color: #2f3339;
@@ -792,7 +792,7 @@ body {
   margin-bottom: 20px;
   line-height: 120%;
   word-break: break-all;
-  font-size: 19px;
+  font-size: 15px;
 }
 .post-content h5 {
   color: #2f3339;
@@ -800,7 +800,7 @@ body {
   margin-bottom: 20px;
   line-height: 120%;
   word-break: break-all;
-  font-size: 18px;
+  font-size: 10px;
 }
 .post-content h6 {
   color: #2f3339;
@@ -808,7 +808,7 @@ body {
   margin-bottom: 20px;
   line-height: 120%;
   word-break: break-all;
-  font-size: 17px;
+  font-size: 5px;
 }
 .post-content figcaption {
   text-align: center;
