@@ -10,6 +10,6 @@ comments: false
 - [B站](https://space.bilibili.com/496960407)
 - QQ：`1241593334`
 ### 赞助我
-<img src="/img/gld_skm.png" width="100%">
+<a href="https://afdian.com/a/guailoudou"><img src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt=""  style="width: 150px;"></a>
 
 **（你赞助我不会得到任何东西）**
