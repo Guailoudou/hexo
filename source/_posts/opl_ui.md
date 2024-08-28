@@ -26,17 +26,27 @@ tags:
 单文件版会在打开后自动下载需要的文件
 - [![Github](https://img.shields.io/badge/Github-OPL_WpfApp-Green?logo=github)](https://github.com/Guailoudou/OPL-WpfApp)
 
-### 下载源1（推荐）：
+### 下载源1（推荐）win：
 
 - [夸克](https://pan.quark.cn/s/8537690fd74b) 
   
 夸克每转存一次，我可以获得0.2软妹币，所以推荐使用这个
 
-### 下载源2(Gitee)：
+### 下载源2(Gitee) win：
 需要登录gitee 
 - 免安装版：[OPL联机工具UI.zip](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL联机工具UI.zip)
 - 单文件版：[OPL_WpfApp.exe](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL_WpfApp.exe)
 
+### linux系统
+下载执行文件
+```
+sudo curl -k -o opl_linux.sh "https://gitee.com/guailoudou/urlfile/raw/main/file/opl_linux.sh"
+```
+运行
+```
+sudo bash ./opl_linux.sh
+```
+**注意linux系统暂只支持被连接，且可能存在各种各样的问题**
 ## 使用方法
 
 1. 下载后安装或解压，双击 OPL_WpfApp.exe 或 点击桌面快捷方式启动
