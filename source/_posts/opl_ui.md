@@ -44,7 +44,7 @@ sudo curl -k -o opl_linux.sh "https://gitee.com/guailoudou/urlfile/raw/main/file
 ```
 关闭
 ```
-sudo killall -9 openp2p opl_linux.sh
+sudo killall -9 openp2p
 ```
 **注意linux系统暂只支持被连接，且可能存在各种各样的问题，目前仅仅只是能用**
 ## 使用方法
