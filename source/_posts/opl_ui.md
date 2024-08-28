@@ -38,19 +38,15 @@ tags:
 - 单文件版：[OPL_WpfApp.exe](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL_WpfApp.exe)
 
 ### linux系统
-下载执行文件
-```
-sudo curl -k -o opl_linux.sh "https://gitee.com/guailoudou/urlfile/raw/main/file/opl_linux.sh"
-```
 运行
 ```
-sudo bash ./opl_linux.sh &
+sudo curl -k -o opl_linux.sh "https://gitee.com/guailoudou/urlfile/raw/main/file/opl_linux.sh" && sudo bash ./opl_linux.sh
 ```
 关闭
 ```
 sudo killall -9 openp2p opl_linux.sh
 ```
-**注意linux系统暂只支持被连接，且可能存在各种各样的问题**
+**注意linux系统暂只支持被连接，且可能存在各种各样的问题，目前仅仅只是能用**
 ## 使用方法
 
 1. 下载后安装或解压，双击 OPL_WpfApp.exe 或 点击桌面快捷方式启动
