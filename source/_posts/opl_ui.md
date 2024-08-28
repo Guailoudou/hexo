@@ -52,6 +52,8 @@ sudo killall -9 openp2p
 ```
 sudo rm /opt/opl/node.txt
 ```
+linux需要防火墙放行tcp 53271 udp 27182 27183 3个端口
+
 **注意linux系统暂只支持被连接，且可能存在各种各样的问题，目前仅仅只是能用**
 
 ## 使用方法
