@@ -100,6 +100,7 @@ Windows安全中心->病毒和威胁防护->“病毒和威胁防护”设置->�
 
 # 开源
 
-- [![Github](https://img.shields.io/badge/Github-OPL_WpfApp-Green?logo=github)](https://github.com/Guailoudou/OPL-WpfApp)
-- [![Github](https://img.shields.io/badge/Github-openp2p-Green?logo=github)](https://github.com/openp2p-cn/openp2p)
+[![Guailoudou/OPL-WpfApp - GitHub](https://gh-card.dev/repos/Guailoudou/OPL-WpfApp.svg)](https://github.com/Guailoudou/OPL-WpfApp)
+
+[![openp2p-cn/openp2p - GitHub](https://gh-card.dev/repos/openp2p-cn/openp2p.svg)](https://github.com/openp2p-cn/openp2p)
 
