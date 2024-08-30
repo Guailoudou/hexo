@@ -23,4 +23,8 @@ tags:
 
 写入内容 `echo "hello world" > index.html`
 
+下载文件 `wget https://www.baidu.com`
+
+移动/(重命名)文件 `mv index.html index.html`
+
 

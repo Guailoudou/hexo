@@ -41,15 +41,15 @@ tags:
 **注意linux系统暂只支持被连接，且可能存在各种各样的问题，目前仅仅只是能用**
 
 运行
-```
+```shell
 sudo curl -k -o opl_linux.sh "https://gitee.com/guailoudou/urlfile/raw/main/file/opl_linux.sh" && sudo bash ./opl_linux.sh
 ```
 关闭
-```
+```shell
 sudo killall -9 openp2p
 ```
 重置uid（必须在关闭条件下运行）
-```
+```shell
 sudo rm /opt/opl/node.txt
 ```
 linux需要防火墙放行tcp 53271 udp 27182 27183 3个端口
@@ -96,6 +96,7 @@ Windows安全中心->病毒和威胁防护->“病毒和威胁防护”设置->�
 
 <a href="https://afdian.com/a/guailoudou"><img src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt=""  style="width: 150px;"></a>
 
+**（你赞助我不会得到任何东西）**
 
 # 开源
 
