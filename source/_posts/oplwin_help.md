@@ -16,6 +16,22 @@ mc联机遇到报错可以自查，可以通过`ctrl+f`搜索报错的尾部几�
 - [MC相关问题](#MC相关问题)
 ## 联机工具问题
 
+### 软件无法正常运行打开
+该软件基于.NET Framework 4.7.2 版本，请确认系统已安装该版本或更高版本
+
+对于win10版本号1803 及其以上版本，已内置
+
+更低的系统版本，请先尝试直接下载其运行时离线安装包进行安装：[.NET Framework 4.7.2](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net472)
+
+若无法完成安装请根据以下内容按照需要自行安装
+
+Windows 10 周年更新 (版本 1607) 、Windows 10 创意者更新 (版本 1703) 和 Windows Server 2016 中，需要安装系统更新[KB4054590](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4054590)
+
+Windows 10 Fall Creators Update (版本 1709) 中，需要安装系统更新[KB4073120](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4073120)
+
+Windows 7 需要安装根证书[MicrosoftRootCertificateAuthority2011](MicrosoftRootCertificateAuthority2011.cer)以及系统更新[KB3033929](https://www.microsoft.com/zh-cn/download/details.aspx?id=46148)后再安装[.NET Framework 4.7.2](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net472)
+
+
 ### 联机工具隧道长时间黄灯
 原因：隧道打洞失败，在持续尝试打洞
 
