@@ -21,11 +21,15 @@ jobs:
         with:
           node-version: '20'
 
+      - name: set beijing timezone
+        uses: szenius/set-timezone@v2
+        with:
+          timezoneLinux: "Asia/Shanghai"
+
       - name: Setup Hexo
         env:
           ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY }}
         run: |
-          timedatectl set-timezone Asia/Shanghai
           mkdir -p ~/.ssh/
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 700 ~/.ssh
