@@ -32,6 +32,7 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           git config --global user.email "Guailoudou@outlook.com"
           git config --global user.name "Guailoudou"
+          npm install -g hexo-cli
           npm install
 
       - name: Deploy
