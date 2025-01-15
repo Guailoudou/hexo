@@ -32,12 +32,12 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           git config --global user.email "Guailoudou@outlook.com"
           git config --global user.name "Guailoudou"
-          npm install hexo-cli -g
           npm install
+          npm install hexo-cli -g
           npm install hexo-deployer-git --save
           npm install hexo-hide-posts --save
 
       - name: Deploy
         run: |
-          hexo generate
-          hexo deploy
+          hexo clean
+          hexo deploy -g
