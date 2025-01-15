@@ -1,7 +1,6 @@
 ---
 title: MC服务端无人自动休眠核心
 date: 2025-01-15 18:58:07
-layout: true
 tags:
 - 教程
 - 文档
