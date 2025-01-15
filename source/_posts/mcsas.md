@@ -22,7 +22,7 @@ java -jar MCSAS-1.2-SNAPSHOT.jar
 | --- | --- | --- | --- |
 | WaitingTime | Int | 60 |单位分钟，每隔该时间后进行一次人数检测 |
 | MaxZero | Int | 3 | 单位次，检测到多少次服务器人数为0后关闭服务器 |
-| RunCommand | String | `java -jar server.jar` |服务器运行指令，\符号需要使用\\，如：C:\\Program |
+| RunCommand | String | `java -jar server.jar` |服务器运行指令，`\`符号需要使用`\\`，如：`C:\\Program` |
 | NoOneClose | Boolean | true | 是否启用无人自动关闭 |
 | Sleep | Boolean | true | 是否启用自动关闭后休眠（必须启用NoOneClose） |
 | Loglevel | Int | 2 |  日志等级，能正常运行的话设置2比较好 |
