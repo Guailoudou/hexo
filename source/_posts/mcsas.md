@@ -2,6 +2,8 @@
 title: MC服务端无人自动休眠核心
 date: 2025-01-15 18:58:07
 tags:
+- 教程
+- 文档
 ---
 - [![Github](https://img.shields.io/badge/Github-MCServerAutoSleep-Green?logo=github)](https://github.com/Guailoudou/MCServerAutoSleep)
 
