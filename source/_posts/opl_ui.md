@@ -28,7 +28,24 @@ tags:
 - 免安装版：[OPL联机工具UI.zip](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL联机工具UI.zip)
 - 单文件版：[OPL_WpfApp.exe](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL_WpfApp.exe)
 
-### linux系统
+### 多平台控制台版（测试）
+注意，该版本使用方法和以前控制台版类似
+
+> 暂不提供直接下载方式，目前处于开发/内测试阶段，功能不全，入群可抢先体验，参与测试 QQ群：873885623
+
+理论可支持任何桌面系统，以下为已编译的，若你有其他平台的需求，可与我联系。
+
+| 文件名 | 下载链接 | 备注 |
+|-------|----------|------|
+| opl-console-darwin-amd64 | 下载 | Darwin (Mac) |
+| opl-console-darwin-arm64 | 下载 | Darwin (Mac M1) |
+| opl-console-linux-386 | 下载 | Linux (i386) |
+| opl-console-linux-amd64 | 下载 | Linux (x86_64) |
+| opl-console-windows-386.exe | 下载 | Windows (32-bit) |
+| opl-console-windows-amd64.exe | 下载 | Windows (64-bit) |
+| opl-console-windows-arm64.exe | 下载 | Windows (ARM64-bit) |
+
+<!-- ### linux系统
 **注意linux系统暂只支持被连接，且可能存在各种各样的问题，目前仅仅只是能用**
 
 运行
@@ -45,7 +62,7 @@ sudo rm /opt/opl/node.txt
 ```
 linux需要防火墙放行tcp 53271 udp 27182 27183 3个端口
 
-**注意linux系统暂只支持被连接，且可能存在各种各样的问题，目前仅仅只是能用**
+**注意linux系统暂只支持被连接，且可能存在各种各样的问题，目前仅仅只是能用** -->
 
 ## 使用方法
 
