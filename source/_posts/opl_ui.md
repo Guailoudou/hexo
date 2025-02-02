@@ -45,26 +45,6 @@ tags:
 | opl-console-windows-amd64.exe | 下载 | Windows (64-bit) |
 | opl-console-windows-arm64.exe | 下载 | Windows (ARM64-bit) |
 
-<!-- ### linux系统
-**注意linux系统暂只支持被连接，且可能存在各种各样的问题，目前仅仅只是能用**
-
-运行
-```shell
-sudo curl -k -o opl_linux.sh "https://gitee.com/guailoudou/urlfile/raw/main/file/opl_linux.sh" && sudo bash ./opl_linux.sh
-```
-关闭
-```shell
-sudo killall -9 openp2p
-```
-重置uid（必须在关闭条件下运行）
-```shell
-sudo rm /opt/opl/node.txt
-```
-linux需要防火墙放行tcp 53271 udp 27182 27183 3个端口
-
-**注意linux系统暂只支持被连接，且可能存在各种各样的问题，目前仅仅只是能用** 
--->
-
 ## 使用方法
 
 1. 下载后安装或解压，双击 OPL_WpfApp.exe
