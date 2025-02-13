@@ -13,7 +13,7 @@ tags:
 
 软件左下角help按钮也可以查看帮助文档
 
-免安装版解压就行 ，单文件版会在打开后自动下载需要的文件
+免安装版解压就行 ，单文件版会在打开后自动下载需要的文件，如果你不了解windows的文件系统，建议你下载安装包进行安装，防止出现问题
 
 - [![Github](https://img.shields.io/badge/Github-OPL_WpfApp-Green?logo=github)](https://github.com/Guailoudou/OPL-WpfApp)
 
@@ -27,23 +27,23 @@ tags:
 需要登录gitee 
 - 免安装版：[OPL联机工具UI.zip](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL联机工具UI.zip)
 - 单文件版：[OPL_WpfApp.exe](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL_WpfApp.exe)
-
+- 安装包：[OPL_Setup.msi](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL_Setup.msi)
 ### 多平台控制台版（测试）
 注意，该版本使用方法和以前控制台版类似
 
-> 暂不提供直接下载方式，目前处于开发/内测试阶段，功能不全，入群可抢先体验，参与测试 QQ群：873885623
+> 目前处于开发/内测试阶段，功能不全，入群可抢先体验，参与测试 QQ群：873885623
 
-理论可支持任何桌面系统，以下为已编译的，若你有其他平台的需求，可与我联系。
+理论可支持任何桌面系统，若你有其他平台的需求，可与我联系。
 
-| 文件名 | 下载链接 | 备注 |
-|-------|----------|------|
-| opl-console-darwin-amd64 | 下载 | Darwin (Mac) |
-| opl-console-darwin-arm64 | 下载 | Darwin (Mac M1) |
-| opl-console-linux-386 | 下载 | Linux (i386) |
-| opl-console-linux-amd64 | 下载 | Linux (x86_64) |
-| opl-console-windows-386.exe | 下载 | Windows (32-bit) |
-| opl-console-windows-amd64.exe | 下载 | Windows (64-bit) |
-| opl-console-windows-arm64.exe | 下载 | Windows (ARM64-bit) |
+下面一键运行指令脚本支持的系统有：darwin-amd64(MacOS M1) darwin-arm64(MacOS) linux-amd64 linux-arm64 linux-arm linux-386
+
+```sh
+# 一键运行（仅适用于Linux/MacOS，有问题建议入群咨询，仅仅只是能用，功能不完整，暂不支持MC局域网发现--）ps:就是没人用懒得写 
+# 运行的时候会在运行目录可执行文件和生成配置/日志文件等内容，建议新建个目录cd进去执行
+# 0作为房主 1作为连接的用户，暂仅支持单tcp连 可以与上面的windows版互连
+# 复制指令不要把这上面注释给复制了（虽然也不影响，会直接忽略，但是不好看）
+sudo curl -k -o opl_lu.sh "https://gitee.com/guailoudou/urlfile/raw/main/file/opl_lu.sh" && sudo bash ./opl_lu.sh
+```
 
 ## 使用方法
 
