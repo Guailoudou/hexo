@@ -31,7 +31,7 @@
       border: 1px solid #ccc;
       border-radius: 6px;
     }
-    .method, .event {
+    .method, .event, .schema {
       background: white;
       border: 1px solid #ddd;
       border-radius: 8px;
@@ -39,23 +39,25 @@
       margin-bottom: 16px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-    .method-name, .event-name {
+    /* 统一所有标签为蓝色主题 */
+    .method-name, .event-name, .schema-name {
       font-family: 'Courier New', monospace;
-      background: #2980b9;
+      background: #2980b9; /* 统一蓝色 */
       color: white;
       padding: 4px 8px;
       border-radius: 4px;
       font-size: 1.1em;
       display: inline-block;
     }
+
     .description {
       margin: 8px 0;
       color: #555;
     }
-    .params, .result, .notification-params {
+    .params, .result, .notification-params, .schema-properties {
       margin: 12px 0;
     }
-    .params h4, .result h4, .notification-params h4 {
+    .params h4, .result h4, .notification-params h4, .schema-properties h4 {
       margin-top: 8px;
       color: #2c3e50;
     }
@@ -63,7 +65,7 @@
       margin-left: 16px;
       color: #16a085;
     }
-    .schema {
+    .schemat {
       font-family: 'Courier New', monospace;
       background: #ecf0f1;
       padding: 2px 6px;
@@ -118,12 +120,13 @@
   </header>
 
   <div class="search-box">
-    <input type="text" id="searchInput" placeholder="搜索方法名或描述..." />
+    <input type="text" id="searchInput" placeholder="搜索方法名、事件或数据模型..." />
   </div>
 
   <div class="tab">
     <button class="tab-btn active" data-tab="methods">API 方法</button>
     <button class="tab-btn" data-tab="events">通知事件</button>
+    <button class="tab-btn" data-tab="schemas">数据模型</button>
   </div>
 
   <div id="loading" class="loading">正在加载 API 文档...</div>
@@ -131,10 +134,12 @@
 
   <div id="methods" class="tabcontent active"></div>
   <div id="events" class="tabcontent"></div>
+  <div id="schemas" class="tabcontent"></div>
 
   <script>
     const methodsContainer = document.getElementById('methods');
     const eventsContainer = document.getElementById('events');
+    const schemasContainer = document.getElementById('schemas');
     const loadingEl = document.getElementById('loading');
     const errorEl = document.getElementById('error');
 
@@ -145,8 +150,12 @@
         return res.json();
       })
       .then(data => {
+        const openrpcDoc = data.result || data;
+        if (!openrpcDoc.methods) {
+          throw new Error('无效的 OpenRPC 文档：缺少 methods');
+        }
         loadingEl.style.display = 'none';
-        renderAPI(data.result);
+        renderAPI(openrpcDoc);
       })
       .catch(err => {
         loadingEl.style.display = 'none';
@@ -158,11 +167,13 @@
       const methods = spec.methods || [];
       const apiMethods = methods.filter(m => !m.name.startsWith("notification:"));
       const events = methods.filter(m => m.name.startsWith("notification:"));
+      const schemas = spec.components?.schemas || {};
 
       renderMethods(apiMethods);
       renderEvents(events);
+      renderSchemas(schemas);
 
-      setupSearch(apiMethods, events);
+      setupSearch(apiMethods, events, schemas);
     }
 
     function renderMethods(methods) {
@@ -176,7 +187,7 @@
           paramsHTML = '<div class="params"><h4>参数:</h4><ul>';
           method.params.forEach(p => {
             const schema = renderSchema(p.schema);
-            paramsHTML += `<li><strong>${p.name}</strong> ${p.required ? '(必填)' : ''}: <span class="description">${p.description || ''}</span> <br>类型: <span class="schema">${schema}</span></li>`;
+            paramsHTML += `<li><strong>${p.name}</strong> ${p.required ? '(必填)' : ''}: <span class="description">${p.description || ''}</span> <br>类型: <span class="schemat">${schema}</span></li>`;
           });
           paramsHTML += '</ul></div>';
         }
@@ -184,7 +195,7 @@
         let resultHTML = '';
         if (method.result) {
           const schema = renderSchema(method.result.schema);
-          resultHTML = `<div class="result"><h4>返回值:</h4><span class="schema">${schema}</span> - ${method.result.name || ''}</div>`;
+          resultHTML = `<div class="result"><h4>返回值:</h4><span class="schemat">${schema}</span> - ${method.result.description || ''}</div>`;
         }
 
         div.innerHTML = `
@@ -209,7 +220,7 @@
           paramsHTML = '<div class="notification-params"><h4>事件参数:</h4><ul>';
           event.params.forEach(p => {
             const schema = renderSchema(p.schema);
-            paramsHTML += `<li><strong>${p.name}</strong>: <span class="description">${p.description || ''}</span> <br>类型: <span class="schema">${schema}</span></li>`;
+            paramsHTML += `<li><strong>${p.name}</strong>: <span class="description">${p.description || ''}</span> <br>类型: <span class="schemat">${schema}</span></li>`;
           });
           paramsHTML += '</ul></div>';
         }
@@ -224,7 +235,36 @@
       });
     }
 
-    // 简化类型展示（递归处理 schema）
+    function renderSchemas(schemas) {
+      Object.keys(schemas).forEach(name => {
+        const schema = schemas[name];
+        const div = document.createElement('div');
+        div.className = 'schema';
+        div.dataset.search = (name + ' ' + (schema.description || '')).toLowerCase();
+
+        let propsHTML = '';
+        if (schema.properties) {
+          propsHTML = '<div class="schema-properties"><h4>字段:</h4><ul>';
+          Object.keys(schema.properties).forEach(key => {
+            const prop = schema.properties[key];
+            const type = renderSchema(prop);
+            const desc = prop.description || '';
+            propsHTML += `<li><strong>${key}</strong>: <span class="schemat">${type}</span> - ${desc}</li>`;
+          });
+          propsHTML += '</ul></div>';
+        }
+
+        div.innerHTML = `
+          <div class="schema-name">${name}</div>
+          <div class="description">${schema.description || '无描述'}</div>
+          <strong>类型:</strong> <span class="schemat">${schema.type}</span>
+          ${propsHTML}
+        `;
+
+        schemasContainer.appendChild(div);
+      });
+    }
+
     function renderSchema(schema) {
       if (!schema) return 'unknown';
 
@@ -235,15 +275,23 @@
         const items = schema.items ? renderSchema(schema.items) : 'any';
         return `array[${items}]`;
       }
-      if (schema.type === 'object' && schema.properties) {
-        const keys = Object.keys(schema.properties);
-        return `{${keys.slice(0, 3).map(k => k + ': ' + (schema.properties[k].$ref ? schema.properties[k].$ref.split('/').pop() : schema.properties[k].type)).join(', ')}${keys.length > 3 ? '...' : ''}}`;
+      if (schema.type === 'object') {
+        if (schema.properties) {
+          const keys = Object.keys(schema.properties);
+          const preview = keys.slice(0, 3).map(k => {
+            const type = schema.properties[k].$ref 
+              ? schema.properties[k].$ref.split('/').pop() 
+              : schema.properties[k].type || 'any';
+            return `${k}: ${type}`;
+          }).join(', ');
+          return `{${preview}${keys.length > 3 ? '...' : ''}}`;
+        }
+        return 'object';
       }
       return schema.type || 'any';
     }
 
-    // 搜索功能
-    function setupSearch(methods, events) {
+    function setupSearch(methods, events, schemas) {
       const searchInput = document.getElementById('searchInput');
       searchInput.addEventListener('input', function () {
         const query = this.value.trim().toLowerCase();
@@ -254,6 +302,7 @@
 
         filterElements('method', query);
         filterElements('event', query);
+        filterElements('schema', query);
       });
     }
 
@@ -269,12 +318,11 @@
     }
 
     function showAll() {
-      document.querySelectorAll('.method, .event').forEach(el => {
+      document.querySelectorAll('.method, .event, .schema').forEach(el => {
         el.style.display = 'block';
       });
     }
 
-    // Tab 切换
     document.querySelectorAll('.tab-btn').forEach(btn => {
       btn.addEventListener('click', function () {
         document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
