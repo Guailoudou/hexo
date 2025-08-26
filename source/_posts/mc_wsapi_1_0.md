@@ -41,6 +41,8 @@ tags: 文档
 
 返回数据的原始内容：[wsbackapi.json](wsbackapi.json)
 
+原始内容可视化页面：[wsbackapi.html](wsbackapi.html)
+
 ---
 
 ## 方法 (Methods)
