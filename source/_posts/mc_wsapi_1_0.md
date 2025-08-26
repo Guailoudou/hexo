@@ -39,7 +39,7 @@ tags: 文档
 }
 ```
 
-返回数据的原始内容：[wsbackapi.txt](wsbackapi.txt)
+返回数据的原始内容：[wsbackapi.json](wsbackapi.json)
 
 ---
 
