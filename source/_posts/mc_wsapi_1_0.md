@@ -16,6 +16,29 @@ tags: 文档
 
 本 API 提供了对 Minecraft 服务器的远程管理和监控功能。它遵循 JSON-RPC 2.0 规范，允许客户端通过 RPC 调用查询服务器状态、管理玩家（允许列表、封禁、踢出、操作员）、修改服务器设置和游戏规则等。
 
+```json
+//这是一个示例请求体
+{
+    "id": 1,
+    "method": "minecraft:players/kick",
+    "params": [
+        {
+            
+            "players": [
+                {
+                    "name": "Guailoudou",
+                    "id": "bd8c4b93-6ee2-4bf5-a20e-a7ebb5a6c624"
+                }
+            ],
+            "message": {
+                "literal": "You have been kicked."
+            }
+               
+        }
+    ]
+}
+```
+
 ---
 
 ## 方法 (Methods)
