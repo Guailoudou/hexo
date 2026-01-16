@@ -13,7 +13,7 @@ tags:
 Markdown是HTML的子集，所有HTML标签都可以在Markdown中直接使用。
 是HTML的简化版本
 
-换行要隔开(这个取决于解释器，如在github换1行也可以渲染为换行)
+换行要隔开(这个取决于解释器)
 
 ## 常见用途
 
@@ -102,7 +102,13 @@ int main()
 
 ```
 <!-- ## 注释 -->
+在不同的解释器中，渲染的样式不同
 
+- 示例：
+
+    [blog(自定义)](https://blog.gldhn.top/2026/01/16/hello_md/)
+
+    [github](https://github.com/Guailoudou/hexo/blob/main/source/_posts/hello_md.md)
 
 ## 数学公式
 
