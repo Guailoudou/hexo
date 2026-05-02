@@ -1,9 +1,3 @@
-<!--
- * @Date: 2024-04-19 20:17:33
- * @LastEditors: Guailoudou guailoudou@outlook.com
- * @LastEditTime: 2026-05-02 16:18:39
- * @FilePath: \undefinedd:\web\pages\source\_posts\opl_ui.md
--->
 ---
 title: OPL_WPF文档
 date: 2024-04-19 20:17:33
