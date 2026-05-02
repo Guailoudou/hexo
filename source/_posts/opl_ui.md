@@ -1,3 +1,9 @@
+<!--
+ * @Date: 2024-04-19 20:17:33
+ * @LastEditors: Guailoudou guailoudou@outlook.com
+ * @LastEditTime: 2026-05-02 16:18:39
+ * @FilePath: \undefinedd:\web\pages\source\_posts\opl_ui.md
+-->
 ---
 title: OPL_WPF文档
 date: 2024-04-19 20:17:33
@@ -42,7 +48,7 @@ tags:
 # 运行的时候会在运行目录可执行文件和生成配置/日志文件等内容，建议新建个目录cd进去执行
 # 0作为房主 1作为连接的用户，暂仅支持单tcp连 可以与上面的windows版互连
 # 复制指令不要把这上面注释给复制了（虽然也不影响，会直接忽略，但是不好看）
-sudo curl -k -o opl_lu.sh "https://gitee.com/guailoudou/urlfile/raw/main/file/opl_lu.sh" && sudo bash ./opl_lu.sh
+sudo curl -k -o opl_lu.sh "https://file.gldhn.top/file/opl_lu.sh" && sudo bash ./opl_lu.sh
 ```
 
 ## 使用方法
