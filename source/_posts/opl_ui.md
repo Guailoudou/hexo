@@ -23,11 +23,11 @@ tags:
   
 夸克每转存一次，我可以获得0.2软妹币，所以推荐使用这个
 
-### 下载源2(Gitee) win：
-需要登录gitee 
-- 免安装版：[OPL联机工具UI.zip](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL联机工具UI.zip)
-- 单文件版：[OPL_WpfApp.exe](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL_WpfApp.exe)
-- 安装包：[OPL_Setup.msi](https://gitee.com/guailoudou/urlfile/raw/main/file/OPL_Setup.msi)
+### 下载源2 win：
+
+- 免安装版：[OPL联机工具UI.zip](https://file.gldhn.top/file/OPL联机工具UI.zip)
+- 单文件版：[OPL_WpfApp.exe](https://file.gldhn.top/file/OPL_WpfApp.exe)
+- 安装包：[OPL_Setup.msi](https://file.gldhn.top/file/OPL_Setup.msi)
 ### 多平台控制台版（测试）
 注意，该版本使用方法和以前控制台版类似
 
