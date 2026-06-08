@@ -20,17 +20,18 @@ tags:
 ### 下载
 - [下载中心](https://www.gldhn.top/download/5naf4)
 
-<!-- ### 下载源1（推荐）win：
+### 下载源1（推荐）win：
 
 - [夸克](https://pan.quark.cn/s/8537690fd74b) 
   
-夸克每转存一次，我可以获得0.2软妹币，所以推荐使用这个
+夸克每转存一次，我可以获得0.2软妹币，所以推荐使用这个 可以的话先转存一次，再使用下面的链接下载。
 
 ### 下载源2 win：
 
 - 免安装版：[OPL联机工具UI.zip](https://file.gldhn.top/file/OPL联机工具UI.zip)
 - 单文件版：[OPL_WpfApp.exe](https://file.gldhn.top/file/OPL_WpfApp.exe)
-- 安装包：[OPL_Setup.msi](https://file.gldhn.top/file/OPL_Setup.msi) -->
+- 安装包：[OPL_Setup.msi](https://file.gldhn.top/file/OPL_Setup.msi)
+
 ### 多平台控制台版（测试）
 注意，该版本使用方法和以前控制台版类似
 
